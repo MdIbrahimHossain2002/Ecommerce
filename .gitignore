@@ -1,19 +1,30 @@
-/.phpunit.cache
-/node_modules
-/public/build
-/public/hot
-/public/storage
-/storage/*.key
-/vendor
-.env
-.env.backup
-.env.production
-.phpunit.result.cache
-Homestead.json
-Homestead.yaml
-auth.json
-npm-debug.log
-yarn-error.log
+# Backend (Laravel)
+/backend/vendor
+/backend/node_modules
+/backend/.env
+/backend/.env.backup
+/backend/.env.production
+/backend/.phpunit.cache
+/backend/.phpunit.result.cache
+/backend/public/build
+/backend/public/hot
+/backend/public/storage
+/backend/storage/*.key
+/backend/auth.json
+/backend/Homestead.json
+/backend/Homestead.yaml
+
+# Frontend (React)
+/frontend/node_modules
+/frontend/dist
+/frontend/.env
+/frontend/.env.local
+
+# IDE
 /.fleet
 /.idea
 /.vscode
+
+# Logs
+npm-debug.log
+yarn-error.log
